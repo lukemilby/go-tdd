@@ -16,5 +16,6 @@ func Countdown(out io.Writer){
 		time.Sleep(time.Second)
 		fmt.Fprintln(out, i)
 	}
+	time.Sleep(time.Second)
 	fmt.Fprint(out, finalWord)
 }
